@@ -1,6 +1,6 @@
 import cv2
 import cvzone
-import numpy as np
+import numpy as np 
 import pickle
 
 cap = cv2.VideoCapture(r"C:\Users\sagar\OneDrive\Desktop\project\Resume_Analyzer\Parking_Space_Counter-main\Parking_Space_Counter-main\carParkproject\carPark.mp4")
