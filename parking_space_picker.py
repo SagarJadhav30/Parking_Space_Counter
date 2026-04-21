@@ -7,7 +7,7 @@ try:
     with open('CarParkPos', 'rb') as f:
         posList = pickle.load(f)
 except:
-    posList = []
+    posList = [] 
 
 
 def mouseClick(events, x, y, flags, params):
