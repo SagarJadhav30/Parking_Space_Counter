@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(r"C:\Users\sagar\OneDrive\Desktop\project\Resume_Analyzer
 with open('CarParkPos', 'rb') as f:
     posList = pickle.load(f)
      
-width, height = 107, 48
+width, height = 107, 48 
 
 def checkParkingSpace(imgpro):
     
