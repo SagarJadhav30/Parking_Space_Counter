@@ -2,7 +2,7 @@ import cv2
 import pickle
  
 width, height = 107, 48
-
+ 
 try:
     with open('CarParkPos', 'rb') as f:
         posList = pickle.load(f)
