@@ -47,7 +47,7 @@ while True:
     
     checkParkingSpace(imgDilate)
 
-    #for pos in posList:
+    #for pos in posList: 
         
 
     cv2.imshow("image", img)
